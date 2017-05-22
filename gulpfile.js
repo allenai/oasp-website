@@ -15,7 +15,15 @@ gulp.task('html', () => {
   );
 });
 
-gulp.task('deploy', ['html'], () => {
+gulp.task('cname', () => {
+  return (
+    gulp
+      .src('src/CNAME')
+      .pipe(gulp.dest(BUILD_DIR))
+  );
+});
+
+gulp.task('deploy', ['cname', 'html'], () => {
   return (
     gulp
       .src(`${BUILD_DIR}/**/*`)
