@@ -1,0 +1,14 @@
+{
+  "name": "oasp-website",
+  "version": "1.0.0",
+  "description": "The website for the OASP.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "2.18.12",
+    "gulp": "3.9.1"
+  }
+}
