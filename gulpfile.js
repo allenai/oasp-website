@@ -2,6 +2,7 @@
 
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
+const deployToGithubPages = require('gulp-gh-pages');
 
 const BUILD_DIR = 'build';
 
@@ -11,6 +12,14 @@ gulp.task('html', () => {
       .src('src/**/*.html')
       .pipe(gulp.dest(BUILD_DIR))
       .pipe(browserSync.reload({ stream: true }))
+  );
+});
+
+gulp.task('deploy', ['html'], () => {
+  return (
+    gulp
+      .src(`${BUILD_DIR}/**/*`)
+      .pipe(deployToGithubPages())
   );
 });
 
