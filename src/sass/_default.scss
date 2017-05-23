@@ -1,21 +1,22 @@
-/* COLORS
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300');
 
-rgb(30,55,66) // black
-rgb(64,168,157) // green-blue
-rgb(239,201,68) // yellow
-rgb(145,206,210) // light-blue
-*/
 body {
   padding: 2em;
 }
 
 h1, h2, h3, h4, p, li {
-  color: rgb(30,55,66);
+  color: $black;
   margin: 0;
   padding: 0;
 }
 
-p {
+h1, h2, h3 {
+  font-family: 'Trirong', serif;
+}
+
+h4, p {
+  font-family: 'Rubik', sans-serif;
   line-height: 1.5em;
 }
 
