@@ -1,0 +1,52 @@
+.advisors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.advisor {
+  width: 200px;
+  height: 200px;
+  margin: 0.5em;
+  position: relative;
+  background-color: $light-gray;
+}
+
+.advisor:nth-child(n + 1) {
+   border: 1px solid $light-blue;
+}
+
+.advisor:nth-child(2n + 1) {
+   border: 1px solid $yellow;
+}
+
+.advisor:nth-child(3n + 1) {
+   border: 1px solid $dark-blue;
+}
+
+.advisor__pic {
+  
+}
+
+.advisor__desc {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: $white;
+  padding: 0.8em;
+  line-height: 2em;
+}
+
+.advisor__name {
+
+}
+
+.advisor__org {
+  font-size: 0.7em;
+}
+
+
+
+
+

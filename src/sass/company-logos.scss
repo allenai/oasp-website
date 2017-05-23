@@ -1,0 +1,13 @@
+.company-logos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 120px;
+  height: 60px;
+  margin: 0.75em;
+  border: 1px solid $white;
+}
