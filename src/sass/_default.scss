@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Trirong');
 @import url('https://fonts.googleapis.com/css?family=Rubik:300');
 
-body {
-  padding: 2em;
-}
-
-h1, h2, h3, h4, p, li {
+h1, h2, h3, h4, p, ul, li {
   color: $black;
   margin: 0;
   padding: 0;
@@ -15,7 +11,7 @@ h1, h2, h3 {
   font-family: 'Trirong', serif;
 }
 
-h4, p {
+h4, li, p {
   font-family: 'Rubik', sans-serif;
   line-height: 1.5em;
 }
