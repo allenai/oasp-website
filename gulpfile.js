@@ -1,6 +1,7 @@
 'use strict';
 
 const gulp = require('gulp');
+const path = require('path');
 const browserSync = require('browser-sync');
 const deployToGithubPages = require('gulp-gh-pages');
 const sass = require('gulp-sass');
@@ -22,6 +23,11 @@ gulp.task('sass', () => {
     .pipe(gulp.dest(BUILD_DIR))
 });
 
+gulp.task('assets', function() {
+  return gulp.src('src/assets/**')
+    .pipe(gulp.dest('./build/assets'));
+});
+
 gulp.task('cname', () => {
   return (
     gulp
@@ -30,7 +36,7 @@ gulp.task('cname', () => {
   );
 });
 
-gulp.task('deploy', ['cname', 'html', 'sass'], () => {
+gulp.task('deploy', ['cname', 'html', 'sass', 'assets'], () => {
   return (
     gulp
       .src(`${BUILD_DIR}/**/*`)
@@ -40,7 +46,7 @@ gulp.task('deploy', ['cname', 'html', 'sass'], () => {
 
 gulp.task('dev', () => {
   browserSync({ server: { baseDir: BUILD_DIR }});
-  return gulp.watch('src/**/*', ['html', 'sass']);
+  return gulp.watch('src/**/*', ['html', 'sass', 'assets']);
 });
 
 gulp.task('default', ['dev']);
