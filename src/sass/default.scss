@@ -1,0 +1,41 @@
+/* COLORS
+
+rgb(30,55,66) // black
+rgb(64,168,157) // green-blue
+rgb(239,201,68) // yellow
+rgb(145,206,210) // light-blue
+*/
+body {
+  padding: 2em;
+}
+
+h1, h2, h3, h4, p, li {
+  color: rgb(30,55,66);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+ul > li {
+  list-style: none;
+}

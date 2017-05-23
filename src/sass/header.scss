@@ -1,0 +1,21 @@
+.header__title {
+  text-align: center;
+  padding: 1em;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0 1em;
+  padding: 1em;
+}
+.nav-item:hover {
+  color: gray;
+}

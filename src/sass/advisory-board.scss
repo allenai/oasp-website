@@ -1,0 +1,52 @@
+.advisors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.advisor {
+  width: 200px;
+  height: 200px;
+  margin: 0.5em;
+  position: relative;
+  background-color: hsla(0, 0%, 90%, 1);
+}
+
+.advisor:nth-child(n + 1) {
+   border: 1px solid rgb(64,168,157);
+}
+
+.advisor:nth-child(2n + 1) {
+   border: 1px solid rgb(239,201,68);
+}
+
+.advisor:nth-child(3n + 1) {
+   border: 1px solid rgb(145,206,210);
+}
+
+.advisor__pic {
+  
+}
+
+.advisor__desc {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 0.8em;
+  line-height: 2em;
+}
+
+.advisor__name {
+
+}
+
+.advisor__org {
+  font-size: 0.7em;
+}
+
+
+
+
+
