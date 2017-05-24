@@ -1,0 +1,11 @@
+@include tablet-breakpoint {
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    width: 40%;
+  }
+}
