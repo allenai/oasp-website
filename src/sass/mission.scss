@@ -1,14 +1,18 @@
 .mission {
   border: 1px solid $light-blue;
-  padding: 3em;
+  padding: 1em;
+  margin: 0 1em;
 }
 
 .mission__statement {
-  line-height: 2em;
-  margin-bottom: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
 }
 
 .mission__desc {
-  width: 60%;
+  font-size: 1.1em;
   margin-bottom: 2em;
 }
