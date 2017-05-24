@@ -1,15 +1,13 @@
 .principles {
   border: 1px solid $yellow;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -4em;
-  width: calc(100% - 3em);
-
+  margin: -3em 0.5em 2em 0.5em;
 }
+
 .principles__title {
   text-align: center;
-  padding: 1em;
+  padding: 1.5em 0;
+  font-weight: 300;
 }
 
 .principles__table {
@@ -17,6 +15,7 @@
 }
 
 .row {
+  font-size: 1.1em;
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 2em;
