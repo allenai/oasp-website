@@ -1,11 +1,23 @@
 .colorful-list:nth-child(n + 1) {
-   border: 1px solid $light-blue;
+  border: 1px solid $light-blue;
+
+  .colorful-list__child {
+    border-color: $light-blue;
+  }
 }
 
 .colorful-list:nth-child(2n + 1) {
-   border: 1px solid $yellow;
+  border: 1px solid $yellow;
+
+  .colorful-list__child {
+    border-color: $yellow;
+  }
 }
 
 .colorful-list:nth-child(3n + 1) {
-   border: 1px solid $dark-blue;
+  border: 1px solid $dark-blue;
+
+  .colorful-list__child {
+    border-color: $dark-blue;
+  }
 }

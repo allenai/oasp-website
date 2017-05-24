@@ -11,31 +11,8 @@
   margin-bottom: 1em;
 }
 
-.contribution:nth-child(n + 1) {
-  border: 1px solid $light-blue;
-
-  .contribution__institution {
-    border-bottom: 1px solid $light-blue;
-  }
-}
-
-.contribution:nth-child(2n + 1) {
-  border: 1px solid $yellow;
-
-  .contribution__institution {
-    border-bottom: 1px solid $yellow;
-  }
-}
-
-.contribution:nth-child(3n + 1) {
-  border: 1px solid $dark-blue;
-
-  .contribution__institution {
-    border-bottom: 1px solid $dark-blue;
-  }
-}
-
 .contribution__institution {
+  border-bottom: 1px solid;
   text-transform: uppercase;
   font-size: 0.7em;
   text-align: center;
