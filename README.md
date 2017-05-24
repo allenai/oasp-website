@@ -18,4 +18,4 @@ The OASP website.
 
 You can deploy your local, working version to prod by executing this command:
 
-* `npm run gulp deploy`
+* `npm run deploy`
