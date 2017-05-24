@@ -1,5 +1,4 @@
 @import './sass/_normalize.scss';
-
 @import './sass/_colors.scss';
 @import './sass/_breakpoints.scss';
 @import './sass/_default.scss';
@@ -23,3 +22,9 @@
 @import './sass/tablet/company-logos.scss';
 @import './sass/tablet/contributions.scss';
 @import './sass/tablet/footer.scss';
+
+// Desktop
+@import './sass/desktop/container.scss';
+@import './sass/desktop/header.scss';
+@import './sass/desktop/mission.scss';
+@import './sass/desktop/principles.scss';

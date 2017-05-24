@@ -1,0 +1,14 @@
+@include desktop-breakpoint {
+  .mission {
+    padding: 0 5em;
+  }
+
+  .mission__statement {
+    margin-top: 2em;
+  }
+
+  .mission__desc {
+    width: 60%;
+    margin-bottom: 8em;
+  }
+}

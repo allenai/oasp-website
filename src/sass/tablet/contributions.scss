@@ -1,4 +1,8 @@
 @include tablet-breakpoint {
+  .contributions {
+    padding: 0 1.5em;
+  }
+
   .contribution {
     position: relative;
     padding: 2em;

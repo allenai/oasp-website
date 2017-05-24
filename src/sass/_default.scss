@@ -43,6 +43,12 @@ body {
   background-position: center top;
 }
 
+@include phablet-breakpoint {
+  body {
+    background-size: contain;
+  }
+}
+
 @include tablet-breakpoint {
   body {
     padding: 1em 2em;
