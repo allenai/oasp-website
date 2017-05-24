@@ -1,0 +1,22 @@
+@include tablet-breakpoint {
+  .mission {
+    padding: 0 3em;
+    background-color: $white;
+    background-image: url('./assets/background/oasp-illustration.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 150px -25px;
+  }
+
+  .mission__statement {
+    line-height: 2em;
+    text-align: left;
+    font-size: 2em;
+    margin: 1em 0;
+  }
+
+  .mission__desc {
+    margin-bottom: 5em;
+    width: 70%;
+  }
+}

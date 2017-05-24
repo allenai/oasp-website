@@ -1,0 +1,17 @@
+@include phablet-breakpoint {
+  .company-logo {
+    width: 25%;
+    margin: 0.5em;
+  }
+}
+
+@include tablet-breakpoint {
+  .company-logos {
+    padding: 0 1.5em;
+  }
+
+  .company-logo {
+    width: 20%;
+    margin: 1em;
+  }
+}

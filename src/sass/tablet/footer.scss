@@ -1,0 +1,7 @@
+@include tablet-breakpoint {
+  .footer {
+    padding: 0 1.5em;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
