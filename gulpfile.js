@@ -37,11 +37,10 @@ gulp.task('cname', () => {
 });
 
 gulp.task('deploy', ['cname', 'html', 'sass', 'assets'], () => {
-  return (
-    gulp
-      .src(`${BUILD_DIR}/**/*`)
-      .pipe(deployToGithubPages())
-  );
+  const DEPLOY_OPTS = { remoteUrl: "https://github.com/allenai/oasp-website.git" };
+
+  return gulp.src(`${BUILD_DIR}/**/*`)
+    .pipe(deployToGithubPages(DEPLOY_OPTS));
 });
 
 gulp.task('dev', () => {
