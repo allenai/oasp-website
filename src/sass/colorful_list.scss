@@ -1,0 +1,11 @@
+.colorful-list:nth-child(n + 1) {
+   border: 1px solid $light-blue;
+}
+
+.colorful-list:nth-child(2n + 1) {
+   border: 1px solid $yellow;
+}
+
+.colorful-list:nth-child(3n + 1) {
+   border: 1px solid $dark-blue;
+}
