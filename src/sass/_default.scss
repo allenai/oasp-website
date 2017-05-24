@@ -42,3 +42,9 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+@include tablet-breakpoint {
+  body {
+    padding: 1em 2em;
+  }
+}

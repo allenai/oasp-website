@@ -1,9 +1,9 @@
 @import './sass/_normalize.scss';
 
 @import './sass/_colors.scss';
+@import './sass/_breakpoints.scss';
 @import './sass/_default.scss';
 @import './sass/_colorful_list.scss';
-@import './sass/_breakpoints.scss';
 
 // Mobile
 @import './sass/mobile/header.scss';
@@ -17,7 +17,7 @@
 
 // Tablet
 @import './sass/tablet/header.scss';
-// @import './sass/tablet/mission.scss';
+@import './sass/tablet/mission.scss';
 // @import './sass/tablet/principles.scss';
 // @import './sass/tablet/advisory-board.scss';
 // @import './sass/tablet/company-logos.scss';
