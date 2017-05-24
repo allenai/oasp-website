@@ -9,7 +9,8 @@
 }
 .principles__title {
   text-align: center;
-  padding: 1em;
+  padding: 1.5em 0;
+  font-weight: 300;
 }
 
 .principles__table {
@@ -17,6 +18,7 @@
 }
 
 .row {
+  font-size: 1.1em;
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 2em;
