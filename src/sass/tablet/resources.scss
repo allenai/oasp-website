@@ -1,14 +1,14 @@
 @include tablet-breakpoint {
-  .contributions {
+  .resources {
     padding: 0 1.5em;
   }
 
-  .contribution {
+  .resource {
     position: relative;
     padding: 2em;
   }
 
-  .contribution__institution {
+  .resource__institution {
     position: absolute;
     top: 0;
     right: 0;
@@ -17,8 +17,12 @@
     padding: 0.5em 1em;
   }
 
-  .contribution__title {
+  .resource__title {
     font-size: 1.25em;
     letter-spacing: 1px;
+  }
+
+  .resource__desc {
+    font-size: 1.1em;
   }
 }

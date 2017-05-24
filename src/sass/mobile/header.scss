@@ -17,11 +17,8 @@
 .nav-item {
   text-decoration: underline;
   display: inline-block;
-
-  a {
-    color: $black;
-  }
 }
+
 .nav-item:hover {
   color: gray;
 }
