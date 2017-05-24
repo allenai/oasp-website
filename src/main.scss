@@ -1,14 +1,16 @@
 @import './sass/_colors.scss';
 @import './sass/_normalize.scss';
 @import './sass/_default.scss';
+@import './sass/_colorful_list.scss';
 
-@import './sass/colorful_list.scss';
+// Mobile
+@import './sass/mobile/header.scss';
+@import './sass/mobile/mission.scss';
+@import './sass/mobile/principles.scss';
+@import './sass/mobile/advisory-board.scss';
+@import './sass/mobile/company-logos.scss';
+@import './sass/mobile/contributions.scss';
+@import './sass/mobile/legal.scss';
+@import './sass/mobile/footer.scss';
 
-@import './sass/header.scss';
-@import './sass/mission.scss';
-@import './sass/principles.scss';
-@import './sass/advisory-board.scss';
-@import './sass/company-logos.scss';
-@import './sass/contributions.scss';
-@import './sass/legal.scss';
-@import './sass/footer.scss';
+// Tablet
