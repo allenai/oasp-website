@@ -6,6 +6,11 @@
   }
 
   .nav-list {
-    width: 40%;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .nav-item:nth-child(1) {
+    margin-right: 2em;
   }
 }

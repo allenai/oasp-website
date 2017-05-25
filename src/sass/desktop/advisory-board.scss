@@ -1,0 +1,5 @@
+@include max-width-breakpoint {
+  .advisor {
+    width: calc(25% - 0.5em)
+  }
+}

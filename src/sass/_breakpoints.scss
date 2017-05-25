@@ -1,6 +1,8 @@
 $phablet: 500px;
 $tablet: 768px;
+$wide-tablet: 900px;
 $desktop: 1024px;
+$max-width: 1200px;
 
 @mixin phablet-breakpoint {
   @media (min-width: #{$phablet}) {
@@ -14,8 +16,20 @@ $desktop: 1024px;
   }
 }
 
+@mixin wide-tablet-breakpoint {
+  @media (min-width: #{$wide-tablet}) {
+    @content;
+  }
+}
+
 @mixin desktop-breakpoint {
   @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin max-width-breakpoint {
+  @media (min-width: #{$max-width}) {
     @content;
   }
 }

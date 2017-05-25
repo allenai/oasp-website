@@ -1,6 +1,8 @@
 @include desktop-breakpoint {
   .mission {
     padding: 0 5em;
+    background-size: 80%;
+    background-position: right bottom;
   }
 
   .mission__statement {
