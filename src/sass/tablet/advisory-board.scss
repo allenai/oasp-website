@@ -5,14 +5,13 @@
 
   .advisors {
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .advisor {
-    width: 40%;
-    max-width: 250px;
+    width: calc(50% - 0.5em);
     padding: 0;
-    margin: 0.5em;
+    margin-bottom: 1em;
     position: relative;
   }
 
@@ -29,5 +28,11 @@
     right: 0;
     bottom: 0;
     background-color: $white;
+  }
+}
+
+@include wide-tablet-breakpoint {
+  .advisor {
+    width: calc(33% - 0.5em);
   }
 }
