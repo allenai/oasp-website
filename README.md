@@ -12,7 +12,7 @@ The OASP website.
 
 * `cd oasp-website && npm install`
 
-* `npm run gulp`
+* `npm start`
 
 ## Deploying Changes
 

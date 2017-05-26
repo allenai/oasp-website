@@ -4,7 +4,7 @@
   "description": "The website for the OASP.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp",
+    "start": "gulp",
     "deploy": "gulp deploy"
   },
   "private": true,
