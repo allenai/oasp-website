@@ -23,9 +23,13 @@
   padding: 1em;
 }
 
-.resource__title {
-  text-decoration: underline;
-  margin-bottom: 0.5em;
+.resources__title {
+  margin-bottom: 1em;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.resources__subtitle {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
