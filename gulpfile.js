@@ -40,7 +40,7 @@ gulp.task('deploy', ['cname', 'html', 'sass', 'assets'], () => {
   const DEPLOY_OPTS = { remoteUrl: "git@github.com/allenai/oasp-website" };
 
   return gulp.src(`${BUILD_DIR}/**/*`)
-    .pipe(deployToGithubPages());
+    .pipe(deployToGithubPages(DEPLOY_OPTS));
 });
 
 gulp.task('dev', () => {
