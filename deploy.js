@@ -4,7 +4,7 @@ const cp = require('child_process');
 const TMP_PATH = '/tmp/oasp-website-deploy-artifacts';
 const EXEC_OPTS = { cwd: TMP_PATH };
 
-module.exports = function deployToGithubPages(dir, origin) {
+module.exports = function deployToGithubPages(dir) {
   if (fs.existsSync(TMP_PATH)) {
     throw `Directory ${TMP_PATH} already exists.`;
   }
