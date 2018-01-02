@@ -3,8 +3,8 @@
 const gulp = require('gulp');
 const path = require('path');
 const browserSync = require('browser-sync');
-const deployToGithubPages = require('gulp-gh-pages');
 const sass = require('gulp-sass');
+const deployToGithubPages = require('./deploy');
 
 const BUILD_DIR = 'build';
 
@@ -37,10 +37,7 @@ gulp.task('cname', () => {
 });
 
 gulp.task('deploy', ['cname', 'html', 'sass', 'assets'], () => {
-  const DEPLOY_OPTS = { remoteUrl: 'git@github.com:allenai/oasp-website.git' };
-
-  return gulp.src(`${BUILD_DIR}/**/*`)
-    .pipe(deployToGithubPages(DEPLOY_OPTS));
+  deployToGithubPages(BUILD_DIR);
 });
 
 gulp.task('dev', () => {
