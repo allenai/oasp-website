@@ -12,7 +12,7 @@ The OASP website.
 
 * `cd oasp-website && npm install`
 
-* `npm start`
+* `npm start` (if you get "Cannot GET /", run `npm build`)
 
 ## Deploying Changes
 

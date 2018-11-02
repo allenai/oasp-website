@@ -36,7 +36,9 @@ gulp.task('cname', () => {
   );
 });
 
-gulp.task('deploy', ['cname', 'html', 'sass', 'assets'], () => {
+gulp.task('build', ['cname', 'html', 'sass', 'assets']);
+
+gulp.task('deploy', ['build'], () => {
   deployToGithubPages(BUILD_DIR);
 });
 
