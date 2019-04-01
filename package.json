@@ -14,8 +14,8 @@
     "gulp": "3.9.1"
   },
   "dependencies": {
+    "debug": ">=2.6.9",
     "gulp-sass": "3.2.1",
-    "node-sass": "4.9.4",
-    "debug": ">=2.6.9"
+    "node-sass": "^4.11.0"
   }
 }
