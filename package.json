@@ -11,6 +11,7 @@
   "private": true,
   "devDependencies": {
     "browser-sync": "2.26.3",
+    "extend": "3.0.2",
     "gulp": "3.9.1"
   },
   "dependencies": {
