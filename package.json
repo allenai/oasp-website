@@ -12,7 +12,8 @@
   "devDependencies": {
     "browser-sync": "2.26.3",
     "extend": "3.0.2",
-    "gulp": "3.9.1"
+    "gulp": "3.9.1",
+    "tar": "4.4.2"
   },
   "dependencies": {
     "debug": ">=2.6.9",
